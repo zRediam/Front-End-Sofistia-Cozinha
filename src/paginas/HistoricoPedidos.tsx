@@ -21,7 +21,7 @@ const HistoricoPedidos: React.FC = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
     document.body.style.background = '#111827';
     return () => {
       document.body.style.overflow = 'auto';

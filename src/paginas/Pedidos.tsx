@@ -21,7 +21,7 @@ const Pedidos: React.FC = () => {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    document.body.style.overflow = 'hidden';
+    // document.body.style.overflow = 'hidden';
     document.body.style.background = '#111827';
     return () => {
       document.body.style.overflow = 'auto';
@@ -40,7 +40,7 @@ const Pedidos: React.FC = () => {
       alignItems: 'center',
       px: 2,
     }}>
-      <Box sx={{ textAlign: 'center', mt: 7 }}>
+      <Box sx={{ textAlign: 'center', mt: 0 }}>
         <Typography variant="h4" component="h1" sx={{ color: '#F59E0B', fontWeight: 'bold' }}>
           Sofistia
         </Typography>
